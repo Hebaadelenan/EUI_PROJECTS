@@ -17,4 +17,23 @@ typedef uint8 Dio_PortType;
 typedef uint8 Dio_LevelType;
 typedef uint8 Dio_PortLevelType;
 
+
+#define  PORTA 0
+#define  PORTB 1
+#define  PORTC 2
+#define  PORTD 3
+#define  PORTE 4
+#define  PORTF 5
+
+
+
+typedef enum{
+   PULL_DISABLE,PULL_ENABLE
+}GPIO_PinInternalPullEN;
+
+typedef enum{
+   DIGITAL_DISABLE,DIGITAL_ENABLE
+}GPIO_PinDigitalEN;
+
+
 #endif /* DIO_H_ */
